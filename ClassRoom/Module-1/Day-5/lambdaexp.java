@@ -14,6 +14,13 @@ public interface lambdaexp {
         System.out.println(obj3.calculate(a,b));
         lambdaexp obj4 = (x, y) -> x / y;
         System.out.println(obj4.calculate(a,b));
+        EvenOrOdd check =(x)->x%2==0;
+        System.out.println("Is a even? " + check.check(a));
+        System.out.println("Is b even? " + check.check(b));
+    }
+    @FunctionalInterface
+    interface EvenOrOdd {
+        boolean check(int x);
     }
 
 }
