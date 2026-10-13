@@ -7,6 +7,7 @@ public class StreamBasic {
 
 
 
+
 //        Intermediate Operations
 //        filter(), map(), sorted(), distinct()
 //        These transform or process the stream and return another stream. They are generally lazy, meaning they do not process elements until a terminal operation triggers the pipeline.
